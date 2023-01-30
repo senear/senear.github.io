@@ -112,8 +112,8 @@ export default function Projects() {
 											<p>
 												Aidway provides an easy to use
 												method for the victims to
-												contact and track an emergency service.
-											 As soon as the victim
+												contact and track an emergency
+												service. As soon as the victim
 												sends a distress call, it is
 												redirected to the currently
 												functioning emergency call
