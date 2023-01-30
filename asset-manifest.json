@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/senear.github.io/static/css/main.d161cdb1.css",
-    "main.js": "/senear.github.io/static/js/main.9f356c7b.js",
-    "static/js/787.52707d9d.chunk.js": "/senear.github.io/static/js/787.52707d9d.chunk.js",
-    "static/media/puneet.png": "/senear.github.io/static/media/puneet.a4a9c6f912a009c4b9d1.png",
-    "static/media/dtu.jpg": "/senear.github.io/static/media/dtu.b132fea951ad87f1f4d7.jpg",
-    "static/media/aidway.png": "/senear.github.io/static/media/aidway.7c27f8fa0cf9e63af165.png",
-    "static/media/microsoft.png": "/senear.github.io/static/media/microsoft.832cfee569a912b34c26.png",
-    "static/media/bizmarvel.png": "/senear.github.io/static/media/bizmarvel.ef7aaf0dadce078a680e.png",
-    "index.html": "/senear.github.io/index.html",
-    "main.d161cdb1.css.map": "/senear.github.io/static/css/main.d161cdb1.css.map",
-    "main.9f356c7b.js.map": "/senear.github.io/static/js/main.9f356c7b.js.map",
-    "787.52707d9d.chunk.js.map": "/senear.github.io/static/js/787.52707d9d.chunk.js.map"
+    "main.css": "/static/css/main.d161cdb1.css",
+    "main.js": "/static/js/main.e817f378.js",
+    "static/js/787.52707d9d.chunk.js": "/static/js/787.52707d9d.chunk.js",
+    "static/media/puneet.png": "/static/media/puneet.a4a9c6f912a009c4b9d1.png",
+    "static/media/dtu.jpg": "/static/media/dtu.b132fea951ad87f1f4d7.jpg",
+    "static/media/aidway.png": "/static/media/aidway.7c27f8fa0cf9e63af165.png",
+    "static/media/microsoft.png": "/static/media/microsoft.832cfee569a912b34c26.png",
+    "static/media/bizmarvel.png": "/static/media/bizmarvel.ef7aaf0dadce078a680e.png",
+    "index.html": "/index.html",
+    "main.d161cdb1.css.map": "/static/css/main.d161cdb1.css.map",
+    "main.e817f378.js.map": "/static/js/main.e817f378.js.map",
+    "787.52707d9d.chunk.js.map": "/static/js/787.52707d9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d161cdb1.css",
-    "static/js/main.9f356c7b.js"
+    "static/js/main.e817f378.js"
   ]
 }
