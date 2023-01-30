@@ -191,6 +191,7 @@ nav.navbar .navbar-toggler-icon:after {
 	padding: 170px 0 100px 0;
 	display: flex;
 	position: relative;
+	width:100vw;
 }
 
 .banner .tagline {
