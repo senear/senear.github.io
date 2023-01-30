@@ -2,7 +2,7 @@
   "name": "puneet-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://senear.github.io/senear.github.io",
+  "homepage": "https://senear.github.io/senear.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
