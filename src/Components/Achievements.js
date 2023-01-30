@@ -28,7 +28,7 @@ export default function Achievements() {
 											<p>
 												Awarded Runner Up at IOSD
 												DevWeek Hackathon among 200+
-												teams for developing a Society
+												teams for building a Society
 												management website.
 											</p>
 										</li>
