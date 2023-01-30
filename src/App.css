@@ -191,7 +191,6 @@ nav.navbar .navbar-toggler-icon:after {
 	padding: 170px 0 100px 0;
 	display: flex;
 	position: relative;
-	width:100vw;
 }
 
 .banner .tagline {
@@ -697,6 +696,28 @@ nav.navbar .navbar-toggler-icon:after {
 	}
 	.projects .cards .more {
 		display: none;
+	}
+}
+
+@media (max-width: 550px) {
+	.projects h1 {
+		font-size: 25px !important;
+		letter-spacing: 1.1px;
+	}
+	.project-presented {
+		font-size: 14px !important;
+		letter-spacing: 1.5px;
+	}
+	.project-content span {
+		font-size: 14px;
+	}
+	.projects h2 {
+		font-size: 22px !important;
+		letter-spacing: 1.1px !important;
+	}
+	.projects .coords p {
+		font-size: 13px !important;
+		letter-spacing: 1.1px !important;
 	}
 }
 
