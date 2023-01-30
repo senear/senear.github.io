@@ -191,6 +191,7 @@ nav.navbar .navbar-toggler-icon:after {
 	padding: 170px 0 100px 0;
 	display: flex;
 	position: relative;
+	width:100vw;
 }
 
 .banner .tagline {
@@ -254,13 +255,13 @@ nav.navbar .navbar-toggler-icon:after {
 }
 @keyframes updown {
 	0% {
-		transform: translateY(-15px);
+		transform: translateY(-20px);
 	}
 	50% {
-		transform: translateY(15px);
+		transform: translateY(20px);
 	}
 	100% {
-		transform: translateY(-15px);
+		transform: translateY(-20px);
 	}
 }
 .txt-rotate > .wrap {
@@ -285,6 +286,9 @@ nav.navbar .navbar-toggler-icon:after {
 	.divider {
 		background-color: rgba(170, 150, 218, 0.3);
 	}
+	.banner img {
+		margin-top: 16px;
+	}
 }
 @media only screen and (min-width: 1000px) {
 	.banner h2 {
@@ -299,6 +303,7 @@ nav.navbar .navbar-toggler-icon:after {
 	display: flex;
 	background-color: #fc5185;
 	transform: rotate(-1.5deg);
+	width: 100vw;
 }
 
 .marquee-content {
