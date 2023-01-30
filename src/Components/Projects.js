@@ -107,7 +107,7 @@ export default function Projects() {
 											maxWidth: (4 * width) / 8,
 										}}
 									>
-										<h2>Track You Emergency</h2>
+										<h2>Track Emergency</h2>
 										<div className="coords">
 											<p>
 												Aidway provides an easy to use
