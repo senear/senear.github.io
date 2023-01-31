@@ -60,6 +60,31 @@ select:focus {
 	outline: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 0.5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #3fc1c9;
+	border-radius: 10px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+		rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	transition: 10s all ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #1dabb3;
+}
+
 /************ Navbar Css ************/
 .navbar-heading {
 	font-family: "Sacramento", cursive;
@@ -191,7 +216,7 @@ nav.navbar .navbar-toggler-icon:after {
 	padding: 170px 0 100px 0;
 	display: flex;
 	position: relative;
-	width:100vw;
+	width: 100vw;
 }
 
 .banner .tagline {
@@ -249,10 +274,13 @@ nav.navbar .navbar-toggler-icon:after {
 .banner svg:hover {
 	transform: translateY(-7px);
 }
-.banner img {
+.banner .header-img {
 	height: 120%;
 	animation: updown 4s linear infinite;
+	border-radius: 1000px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 22px 70px 4px;
 }
+
 @keyframes updown {
 	0% {
 		transform: translateY(-20px);

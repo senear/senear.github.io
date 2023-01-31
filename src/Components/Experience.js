@@ -70,7 +70,7 @@ export default function Experience() {
 							<div className="experience-content">
 								<div className="experience-flex">
 									<h5>Fullstack Developer Intern 1</h5>
-									<h5>November 2020 - January 2021</h5>
+									<h5>Nov 2020 - Jan 2021</h5>
 								</div>
 								<div className="experience-details">
 									<ul>

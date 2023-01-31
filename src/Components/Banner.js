@@ -7,6 +7,7 @@ import { FiLinkedin, FiGithub } from "react-icons/fi";
 import { SiLeetcode, SiCodechef, SiInstagram, SiGmail } from "react-icons/si";
 
 import { Fade, Zoom } from "react-reveal";
+import Typewriter from "typewriter-effect";
 
 export default function Banner() {
 	return (
@@ -26,8 +27,31 @@ export default function Banner() {
 							</Fade>
 							<Fade left>
 								<h2>
-									IT Major from Delhi Technological
-									University.
+									<Typewriter
+										onInit={(typewriter) => {
+											typewriter
+												.pauseFor(2000)
+												.typeString(
+													"IT Major from Delhi Technological University."
+												)
+												.pauseFor(2500)
+												.deleteAll()
+												.typeString(
+													"Software developer from Delhi."
+												)
+												.pauseFor(2500)
+												.deleteAll()
+												.typeString(
+													"Enthusiastic Programmer."
+												)
+												.pauseFor(2500)
+												.deleteAll()
+												.start();
+										}}
+										options={{
+											loop: true,
+										}}
+									/>
 								</h2>
 							</Fade>
 							<Fade left>
@@ -74,8 +98,12 @@ export default function Banner() {
 					</Col>
 					<Col xs={12} md={6} xl={5}>
 						<Zoom>
-							<div>
-								<img src={HeaderImage} alt="Header Img" />
+							<div style={{ position: "relative" }}>
+								<img
+									className="header-img"
+									src={HeaderImage}
+									alt="Header Img"
+								/>
 							</div>
 						</Zoom>
 					</Col>

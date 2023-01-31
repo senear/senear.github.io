@@ -113,11 +113,9 @@ export default function Projects() {
 												Aidway provides an easy to use
 												method for the victims to
 												contact and track an emergency
-												service. As soon as the victim
-												sends a distress call, it is
-												redirected to the currently
-												functioning emergency call
-												centre of India.
+												service. Vicitims can report an
+												emergencyand track it real time
+												using a map.
 											</p>
 										</div>
 									</div>
@@ -386,7 +384,7 @@ export default function Projects() {
 											<p>
 												This apps is built for foodies
 												and recommends Restaurants to
-												the users based on their mood
+												them based on their mood
 												and preference. Also, in this
 												COVID-19 pandemic users can view
 												restaurants in 360° VR views
